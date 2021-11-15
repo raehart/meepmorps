@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @buddy.name %>
+</p>
+
+<p>
+  <strong>Species:</strong>
+  <%= @buddy.species %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @buddy.color %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @buddy.age %>
+</p>
+
+<p>
+  <strong>Adoptable:</strong>
+  <%= @buddy.adoptable %>
+</p>
+
+<%= link_to 'Edit', edit_buddy_path(@buddy) %> |
+<%= link_to 'Back', buddies_path %>
